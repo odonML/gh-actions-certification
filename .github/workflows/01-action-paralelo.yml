@@ -2,7 +2,7 @@ name: 01 Paralelo action
 
 on:
   push:
-    branches: [main]
+    branches: [main2]
 
 jobs:
   print-hola-mundo:

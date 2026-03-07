@@ -1,0 +1,12 @@
+name: 03 Variable entorno action
+on:
+  push:
+    branches: [main]
+
+jobs:
+  print-hola-mundo:
+    runs-on: ubuntu-latest
+    env:
+      SALUDO: "hola mundo"
+    steps:
+      - run: echo ${{ env.SALUDO }}
